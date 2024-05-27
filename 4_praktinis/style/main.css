@@ -296,6 +296,7 @@ h4 {
         margin: 15px;
         align-content: left;
         flex-wrap: wrap;
+        float: left;
 }
 
 #iframe-uzklausa iframe{
@@ -313,12 +314,13 @@ h4 {
     text-align: center;
     font-size: larger;
     color: rgba(255, 255, 255, 0.9);
-    padding: 50px;
+    padding: 30px;
+    float: right;
 }
 
 .kontaktai iframe{
     border: 5px;
-    border-radius: 10px; /* Optional: adds rounded corners */
+    border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -326,14 +328,14 @@ h4 {
 
 #footer {
     width: 100%;
-    padding: 55px 0;
+    padding: 40px 0;
     background-color: rgb(14, 61, 20);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .footer-main {
-    text-align: left;
     padding: 0 20px;
     color: rgba(255, 255, 255, 0.9);
 }
@@ -341,9 +343,9 @@ h4 {
 .footer-content {
     display: flex;
     flex-grow: 1;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.9);
+    justify-content: center; 
     align-items: center;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* SOCIALMEDIA ICONS*/
