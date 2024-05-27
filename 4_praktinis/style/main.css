@@ -328,27 +328,28 @@ h4 {
     width: 100%;
     padding: 55px 0;
     background-color: rgb(14, 61, 20);
+    display: flex;
+    align-items: center;
 }
 
 .footer-main {
-    width: 25%;
-    float: left;
     text-align: left;
     padding: 0 20px;
     color: rgba(255, 255, 255, 0.9);
 }
 
 .footer-content {
-    width: auto;
+    display: flex;
+    flex-grow: 1;
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
+    align-items: center;
 }
 
 /* SOCIALMEDIA ICONS*/
 
 .footer-social {
-    width: 25%;
-    float: right;
+    display: flex;
     text-align: right;
     padding: 20px;
     color: rgba(255, 255, 255, 0.9);
